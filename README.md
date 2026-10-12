@@ -42,6 +42,23 @@
 
 </div>
 
+---
+
+## 🛡️ Dark Gravity Integration & Technological Sovereignty Policy
+
+This engine provides the **AST Parsing & Codebase Semantic Extraction Layer** for the **[Dark Gravity Autonomous CA/CD Software Factory](https://github.com/lgcorzo/rust_CACD_autonomous_factory)** ([Architecture Knowledge Base](https://notebook.google.com/notebook/116d5f03-2fb0-4fa7-bd7c-1c9849920abc)).
+
+### 1. Architectural Role in Dark Gravity
+- **Tree-sitter AST Topology Extraction:** Analyzes multi-language codebase structure at native Rust speeds, extracting syntax trees and function boundaries without relying on slow external language servers.
+- **Orphan Symbol Rate (OSR < 5%) Auditing:** Evaluates symbol drift in generated code, ensuring that all synthetic functions, structs, and traits integrate cleanly into the codebase topology before PR submission.
+- **Resource Clamping Compliance:** Optimized to execute full repository scans well within Dark Gravity's strict gVisor sandbox limits ($\le 30\text{ MiB}$ RAM), preventing Out-Of-Memory container kills during autonomous missions.
+
+### 2. Supply-Chain Sovereignty & Independent Maintenance
+- **Sovereign Rust Parser Toolchain:** Maintained under `@lgcorzo` to insulate Dark Gravity's documentation and surgical AST modification pipelines from upstream breaking changes.
+- **Air-Gapped Operation:** Operates completely offline without external internet calls, preserving proprietary enterprise IP inside the private cluster.
+
+---
+
 # 👋 What's Litho
 
 **Litho** is an AI-powered documentation generation engine that automatically analyzes your source code and generates comprehensive, professional architecture documentation in the C4 model format. No more manual documentation that falls behind code changes - Litho keeps your documentation perfectly in sync with your codebase.
