@@ -725,3 +725,10 @@ Yes, Litho can integrate with CI/CD pipelines to automatically generate document
 
 - Documentation: https://github.com/sopaco/deepwiki-rs/tree/main/docs
 - GitHub Issues: https://github.com/sopaco/deepwiki-rs/issues
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](../../commits) and [Pull Requests](../../pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
