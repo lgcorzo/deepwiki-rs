@@ -1,3 +1,5 @@
+Maintained fork of [sopaco/deepwiki-rs](https://github.com/sopaco/deepwiki-rs). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: MIT.
+
 <p align="center">
   <img height="160" src="./assets/banner_litho.webp">
 </p>
@@ -60,8 +62,6 @@ This engine provides the **AST Parsing & Codebase Semantic Extraction Layer** fo
 ---
 
 # 👋 What's Litho
-
-Maintained fork of [sopaco/deepwiki-rs](https://github.com/sopaco/deepwiki-rs). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: MIT.
 
 
 **Litho** is an AI-powered documentation generation engine that automatically analyzes your source code and generates comprehensive, professional architecture documentation in the C4 model format. No more manual documentation that falls behind code changes - Litho keeps your documentation perfectly in sync with your codebase.
