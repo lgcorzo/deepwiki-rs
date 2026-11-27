@@ -1,3 +1,21 @@
+<!-- DARK-GRAVITY-CONTEXT:START -->
+## Dark Gravity Autonomous Software Factory Context
+
+**Dark Gravity** is a Kubernetes-native, **Continuous Agentic / Continuous Deployment (CA/CD)** autonomous software engineering factory — do **NOT** evaluate `deepwiki-rs` in isolation without reading the ecosystem context below.
+
+- **This Repository's Tier & Role**: `maintained_fork` (`MAINTAINED_FORK_PROFILE`, upstream `sopaco/deepwiki-rs`) — Rust Tree-sitter AST analyzer and Orphan Symbol Rate (`OSR < 5%`) gatekeeper verifying living documentation inside Dark Gravity.
+- **Mandatory Ecosystem Read Order (< 5 min)**:
+  1. [./DARK_GRAVITY_MANIFEST.md](./DARK_GRAVITY_MANIFEST.md) — Concise machine- and human-readable ecosystem manifest
+  2. [./ARCHITECTURE.md](./ARCHITECTURE.md) — AST analyzer internals & Dark Gravity pipeline interface
+  3. [./REPOSITORIES.md](./REPOSITORIES.md) — Full multi-repository ecosystem topology
+  4. Unified Entry Portal: <https://lgcorzo.github.io/start-here> (Agent Entry: <https://lgcorzo.github.io/ai-agents>)
+  5. AI Auditor Pack: <https://lgcorzo.github.io/docs/auditor/>
+- **Canonical Ecosystem Invariants**:
+  - **Fork Policy (`MAINTAINED_FORK_PROFILE`)**: Preserve upstream directory structure & `LICENSE` (`UPSTREAM_AND_FORK_POLICY.md`), omit `upstream` remote, use `[agent]` commit prefixes, and never auto-merge PRs (`Vertex 4 HITL`).
+  - **Portfolio Reconciliation**: `64` public repositories (`22` original + `42` maintained forks; `69` historical baseline; `72` Spec `004` inventory). `lgcorzo/kes` is permanently `FROZEN_READONLY`.
+  - **Mission & Isolation**: Kafka `mission-ingestion` -> **5 Hatchet durable steps**; `gVisor` (`runsc`) (`FR-008`/`CTRL-02` kept `TESTED` until `AUD-010` closes); **no third-party compliance certification is claimed**.
+<!-- DARK-GRAVITY-CONTEXT:END -->
+
 # AGENTS.md
 
 <!-- terrain:begin env-overview v4 -->
